@@ -1,0 +1,17 @@
+.App {
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .books-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+}
